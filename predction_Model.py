@@ -1,5 +1,5 @@
 # PROGRAMMER:Ezzeddine Almansoob
-# DATE CREATED:23/7/2023
+# DATE CREATED:25/7/2023
 # PURPOSE: here we can get all the argemnts from user command line interface
 
 #import related functions and libraries

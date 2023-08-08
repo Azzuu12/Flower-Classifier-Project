@@ -1,6 +1,5 @@
 # PROGRAMMER:Ezzeddine Almansoob
 # DATE CREATED:20/7/2023
-# REVISED DATE:
 # PURPOSE: create a model based on a pretrained model but with change its classifier if requested
 
 #import related libraries and functions

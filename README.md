@@ -8,8 +8,8 @@ flower images so that It can be tranied on this dataset and then used to predict
 ## 1. Train
 Train a new network on a data set with `train.py`.<br>
 
-  **Basic usage:** `python train.py data_directory`.<br>
-  **Options:**\n
+  **Basic usage:**<br> `python train.py data_directory`.<br>
+  **Options:**<br>
             -Set directory to save checkpoints:`python train.py data_dir --save_dir save_directory`<br>
             -Choose model architecture: `python train.py data_dir --arch "model"` model can be `vgg16`,`alexnet` or `densenet121`<br>
             -Set hyperparameters:`python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20`<br>
@@ -19,8 +19,8 @@ Train a new network on a data set with `train.py`.<br>
 ## 2. Predict
 Predict flower name from an image with `predict.py` along with the probability of that name.<br>
 
-  **Basic usage:** `python predict.py /path/to/image checkpoint`<br>
-  **Options:**\n
+  **Basic usage:** <br> `python predict.py /path/to/image checkpoint`<br>
+  **Options:** <br>
             -Return topK most likely classes: `python predict.py input checkpoint --top_k 3`<br>
             -Use a mapping of categories to real names: `python predict.py input checkpoint --category_names cat_to_name.json`<br>
             -Use GPU for inference: `python predict.py input checkpoint --gpu`<br>

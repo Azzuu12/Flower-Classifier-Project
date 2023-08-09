@@ -6,24 +6,24 @@ flower images so that It can be tranied on this dataset and then used to predict
 ## CLI Options
 
 ## 1. Train
-Train a new network on a data set with `train.py`.\n
+Train a new network on a data set with `train.py`.<br>
 
-  **Basic usage:** `python train.py data_directory`.\n
+  **Basic usage:** `python train.py data_directory`.<br>
   **Options:**\n
-            -Set directory to save checkpoints:`python train.py data_dir --save_dir save_directory`\n
-            -Choose model architecture: `python train.py data_dir --arch "model"` model can be `vgg16`,`alexnet` or `densenet121`\n
-            -Set hyperparameters:`python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20`\n
-            - Use GPU for training:`python train.py data_dir --gpu`
+            -Set directory to save checkpoints:`python train.py data_dir --save_dir save_directory`<br>
+            -Choose model architecture: `python train.py data_dir --arch "model"` model can be `vgg16`,`alexnet` or `densenet121`<br>
+            -Set hyperparameters:`python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20`<br>
+            - Use GPU for training:`python train.py data_dir --gpu`<br>
 
             
 ## 2. Predict
-Predict flower name from an image with `predict.py` along with the probability of that name.\n
+Predict flower name from an image with `predict.py` along with the probability of that name.<br>
 
-  **Basic usage:** `python predict.py /path/to/image checkpoint`\n
+  **Basic usage:** `python predict.py /path/to/image checkpoint`<br>
   **Options:**\n
-            -Return topK most likely classes: `python predict.py input checkpoint --top_k 3`\n
-            -Use a mapping of categories to real names: `python predict.py input checkpoint --category_names cat_to_name.json`\n
-            -Use GPU for inference: `python predict.py input checkpoint --gpu`\n
+            -Return topK most likely classes: `python predict.py input checkpoint --top_k 3`<br>
+            -Use a mapping of categories to real names: `python predict.py input checkpoint --category_names cat_to_name.json`<br>
+            -Use GPU for inference: `python predict.py input checkpoint --gpu`<br>
             
 ## Output
 -**For training process:** the output will be the loss of the training and validation datasets along with the accuracy of each.

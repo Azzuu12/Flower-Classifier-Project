@@ -29,7 +29,7 @@ Predict flower name from an image with `predict.py` along with the probability o
 -**For training process:** <br>     the output will be the loss of the training and validation datasets along with the accuracy of each.<br>
 -**For prediction process:** <br>     the output will be the probability of the flower/s image/s along with the flower/s name/s or class/es
 
-## Important Note :
+## Important Note 
 **in each file in the project files there are comments each steps, you're recommeded to read each of them carefully 
 before you go through the code**
 

@@ -6,31 +6,31 @@ flower images so that It can be tranied on this dataset and then used to predict
 ## CLI Options
 
 ## 1. Train
-Train a new network on a data set with `train.py`.
+Train a new network on a data set with `train.py`.\n
 
-  **Basic usage:** `python train.py data_directory`.
-  **Options:**
-            -Set directory to save checkpoints:`python train.py data_dir --save_dir save_directory`
-            -Choose model architecture: `python train.py data_dir --arch "model"` model can be `vgg16`,`alexnet` or `densenet121`
-            -Set hyperparameters:`python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20`
+  **Basic usage:** `python train.py data_directory`.\n
+  **Options:**\n
+            -Set directory to save checkpoints:`python train.py data_dir --save_dir save_directory`\n
+            -Choose model architecture: `python train.py data_dir --arch "model"` model can be `vgg16`,`alexnet` or `densenet121`\n
+            -Set hyperparameters:`python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20`\n
             - Use GPU for training:`python train.py data_dir --gpu`
 
             
 ## 2. Predict
-Predict flower name from an image with `predict.py` along with the probability of that name.
+Predict flower name from an image with `predict.py` along with the probability of that name.\n
 
-  **Basic usage:** `python predict.py /path/to/image checkpoint`
-  **Options:**
-            -Return topK most likely classes: `python predict.py input checkpoint --top_k 3`
-            -Use a mapping of categories to real names: `python predict.py input checkpoint --category_names cat_to_name.json`
-            -Use GPU for inference: `python predict.py input checkpoint --gpu`
+  **Basic usage:** `python predict.py /path/to/image checkpoint`\n
+  **Options:**\n
+            -Return topK most likely classes: `python predict.py input checkpoint --top_k 3`\n
+            -Use a mapping of categories to real names: `python predict.py input checkpoint --category_names cat_to_name.json`\n
+            -Use GPU for inference: `python predict.py input checkpoint --gpu`\n
             
 ## Output
 -**For training process:** the output will be the loss of the training and validation datasets along with the accuracy of each.
 -**For prediction process:** the output will be the probability of the flower/s image/s along with the flower/s name/s or class/es
 
 ## Important Note :
-**in each file in the model there is aabout each steps, you're recommeded to read each of them carefully 
+**in each file in the project files there are comments each steps, you're recommeded to read each of them carefully 
 before you go through the code**
 
 ## License

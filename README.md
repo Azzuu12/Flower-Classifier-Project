@@ -1,7 +1,7 @@
 # Flower-Classifier-Project
 ## Description
 Main goal of this project is to build a model that can be trained and after the model is trained it can be used for make prediction. I provide this model with a dataset
-flower images so that It can be tranied on this dataset and then used to predict the image that will be provided to it.
+flower images so that It can be trained on this dataset and then used to predict the image that will be provided to it.
 
 ## CLI Options
 
